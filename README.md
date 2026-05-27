@@ -27,7 +27,7 @@ These notes are my own interpretation and practice, not official course material
 - [Cisco Packet Tracer](https://learningnetwork.cisco.com/s/question/0D53i00000Kt599CAB/download-packet-tracer)
 - [Anki Software](https://apps.ankiweb.net/)
 
-  ## Day by Day Course Progress
+  ## Day by Day Course Progress :
 
 - Day01: [Network Devices](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Day01_Networking_Devices.md)
 
