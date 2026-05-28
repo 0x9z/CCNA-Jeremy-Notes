@@ -2,6 +2,16 @@
 
 My personal notes for Jeremy's IT Lab CCNA course.
 
+
+  ## Day by Day Course Progress :
+
+- Day01: [Network Devices](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Day01_Networking_Devices.md)
+
+
+
+--
+
+
 ## 🙏 Credits & Acknowledgments
 
 This repository is my personal study notes based on the excellent **Jeremy's IT Lab** CCNA course on YouTube.
@@ -26,11 +36,6 @@ These notes are my own interpretation and practice, not official course material
 - [Jeremy's IT Lab](https://youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ&si=Eukex276Nfl6Jo_Z)
 - [Cisco Packet Tracer](https://learningnetwork.cisco.com/s/question/0D53i00000Kt599CAB/download-packet-tracer)
 - [Anki Software](https://apps.ankiweb.net/)
-
-  ## Day by Day Course Progress :
-
-- Day01: [Network Devices](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Day01_Networking_Devices.md)
-
 
 
 --
