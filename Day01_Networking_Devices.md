@@ -15,8 +15,8 @@ Example: Two laptops connected with a cable = a network.
 | Client | Asks for something | You ordering food at a restaurant |
 | Server | Gives/serves something | The kitchen making your food |
 
-> 🍔 Your phone watching YouTube? = Client (asking for the video)
-> 📤 Your friend's phone sending you a file via AirDrop? = Server (giving the file)
+> Your phone watching YouTube? = Client (asking for the video)
+> Your friend's phone sending you a file via AirDrop? = Server (giving the file)
 
 **Key point:** The same device can be a client sometimes and a server other times.
 
