@@ -3,7 +3,7 @@
 My personal notes for Jeremy's IT Lab CCNA course.
 
 
-  ## Day by Day Course Progress :
+  ## Day-by-Day Course Progress :
 
 - Day01: [Network Devices](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Day01_Networking_Devices.md)
 
