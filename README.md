@@ -34,7 +34,7 @@ These notes are my own interpretation and practice, not official course material
 
 ## Resources
 - [Jeremy's IT Lab](https://youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ&si=Eukex276Nfl6Jo_Z)
-- [Cisco CCNA 200-301](https://ankiweb.net/shared/info/591991787)
+- Wendell Odom Flash Cards - [Cisco CCNA 200-301](https://ankiweb.net/shared/info/591991787)
 - [Cisco Packet Tracer](https://learningnetwork.cisco.com/s/question/0D53i00000Kt599CAB/download-packet-tracer)
 - [Anki Software](https://apps.ankiweb.net/)
 
