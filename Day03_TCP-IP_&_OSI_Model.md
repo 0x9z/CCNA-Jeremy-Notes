@@ -1,6 +1,6 @@
 # Day 03: Understanding the OSI MODEL & TCP/IP
 
-## Introduction
+## Introduction:
 
 If you're starting your CCNA journey, one of the first and most important concepts you'll encounter is the **TCP/IP model**. This model is the foundation of how networks operate today. Whether you're browsing the web, sending an email, or streaming a video, the TCP/IP suite of protocols makes it all possible.
 
