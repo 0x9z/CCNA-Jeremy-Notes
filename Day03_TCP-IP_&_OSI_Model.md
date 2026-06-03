@@ -205,11 +205,11 @@ Now that we understand each layer, how does a single message include all this in
 
 As data moves **down** the stack from Layer 5 to Layer 1, each layer adds its own header (and sometimes a trailer) containing the information needed by that layer.
 
-Step 1 (Layer 5): Application prepares the data
-Step 2 (Layer 4): Adds L4 header (port numbers) → SEGMENT or DATAGRAM
-Step 3 (Layer 3): Adds L3 header (IP addresses) → PACKET
-Step 4 (Layer 2): Adds L2 header + trailer (MAC addresses, error check) → FRAME
-Step 5 (Layer 1): Transmits bits as signals
+-Step 1 (Layer 5): Application prepares the data
+-Step 2 (Layer 4): Adds L4 header (port numbers) → SEGMENT or DATAGRAM
+-Step 3 (Layer 3): Adds L3 header (IP addresses) → PACKET
+-Step 4 (Layer 2): Adds L2 header + trailer (MAC addresses, error check) → FRAME
+-Step 5 (Layer 1): Transmits bits as signals
 
 ---
 
@@ -218,11 +218,11 @@ Step 5 (Layer 1): Transmits bits as signals
 
 As data moves **up** the stack from Layer 1 to Layer 5, each layer examines and removes its header/trailer, then passes the remaining data to the layer above.
 
-Step 1 (Layer 1): Receives bits, passes to Layer 2
-Step 2 (Layer 2): Examines/removes L2 header+trailer → PACKET
-Step 3 (Layer 3): Examines/removes L3 header → SEGMENT/DATAGRAM
-Step 4 (Layer 4): Examines/removes L4 header → DATA
-Step 5 (Layer 5): Processes the data
+-Step 1 (Layer 1): Receives bits, passes to Layer 2
+-Step 2 (Layer 2): Examines/removes L2 header+trailer → PACKET
+-Step 3 (Layer 3): Examines/removes L3 header → SEGMENT/DATAGRAM
+-Step 4 (Layer 4): Examines/removes L4 header → DATA
+-Step 5 (Layer 5): Processes the data
 
 --- 
 
