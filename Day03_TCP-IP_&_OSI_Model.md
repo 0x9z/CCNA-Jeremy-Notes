@@ -1,4 +1,4 @@
-# Understanding the TCP/IP Model: A Complete Guide for CCNA Beginners
+# Understanding the OSI MODEL & TCP/IP:
 
 ## Introduction
 
