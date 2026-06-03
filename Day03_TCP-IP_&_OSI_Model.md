@@ -12,11 +12,11 @@ In this guide, we'll build the TCP/IP model step by step, understand what each l
 
 Before diving into the model itself, let's understand two key terms.
 
-### Protocol
+### Protocol:
 
 A **protocol** is a set of rules defining how data should be communicated between devices over a network. Think of protocols as the "languages" computers speak. Just as an English-only speaker can't communicate with a Chinese-only speaker, computers using different protocols can't exchange data.
 
-### Standard
+### Standard:
 
 A **standard** is an agreed-upon specification that describes how a protocol or technology should work. When devices follow **vendor-neutral standards**, devices from different manufacturers (Apple, Windows, Android, Linux) can all communicate seamlessly.
 
