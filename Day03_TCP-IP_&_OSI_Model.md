@@ -1,4 +1,4 @@
-# Day 03: Understanding the OSI MODEL & TCP/IP:
+# Day 03: Understanding the OSI MODEL & TCP/IP
 
 ## Introduction
 
