@@ -204,3 +204,186 @@ Now that we understand each layer, how does a single message include all this in
 ### Encapsulation (Sending Host)
 
 As data moves **down** the stack from Layer 5 to Layer 1, each layer adds its own header (and sometimes a trailer) containing the information needed by that layer.
+
+Step 1 (Layer 5): Application prepares the data
+Step 2 (Layer 4): Adds L4 header (port numbers) → SEGMENT or DATAGRAM
+Step 3 (Layer 3): Adds L3 header (IP addresses) → PACKET
+Step 4 (Layer 2): Adds L2 header + trailer (MAC addresses, error check) → FRAME
+Step 5 (Layer 1): Transmits bits as signals
+
+---
+
+
+### Decapsulation (Receiving Host)
+
+As data moves **up** the stack from Layer 1 to Layer 5, each layer examines and removes its header/trailer, then passes the remaining data to the layer above.
+
+Step 1 (Layer 1): Receives bits, passes to Layer 2
+Step 2 (Layer 2): Examines/removes L2 header+trailer → PACKET
+Step 3 (Layer 3): Examines/removes L3 header → SEGMENT/DATAGRAM
+Step 4 (Layer 4): Examines/removes L4 header → DATA
+Step 5 (Layer 5): Processes the data
+
+--- 
+
+
+### Visual Summary:
+
+| Stage | What It's Called | Contents |
+|-------|------------------|----------|
+| L4 + data | Segment (TCP) or Datagram (UDP) | L4 header + data |
+| L3 + segment/datagram | Packet | L3 header + L4 header + data |
+| L2 + packet | Frame | L2 header + L3 header + L4 header + data + L2 trailer |
+| L1 transmission | Bits | 0s and 1s |
+
+> **Key point:** Frames are what actually travel over the wire. You'll never see a packet, segment, or datagram traveling by itself — they are always sent inside a frame.
+
+---
+
+## Protocol Data Units (PDUs)
+
+A **Protocol Data Unit (PDU)** is the name given to the data at each stage of the encapsulation process.
+
+| OSI Layer | PDU Name | Notes |
+|-----------|----------|-------|
+| Layer 4 | Segment (TCP) or Datagram (UDP) | L4PDU |
+| Layer 3 | Packet | L3PDU |
+| Layer 2 | Frame | L2PDU |
+
+### What Is Payload?
+
+The **payload** is everything encapsulated by a layer's header and trailer (not including that layer's own header or trailer).
+
+- **Layer 4 payload:** The application data itself
+- **Layer 3 payload:** The segment/datagram (including L4 header + data)
+- **Layer 2 payload:** The packet (including L3 + L4 headers + data)
+
+---
+
+## Layer Interactions
+
+### Adjacent-Layer Interaction
+
+Different layers on the **same host** work together. Each layer:
+- Provides a service to the layer above
+- Is serviced by the layer below
+
+**Examples:**
+- Layer 4 provides a service to Layer 5 by delivering data to the correct application using port numbers
+- Layer 3 provides a service to Layer 4 by delivering segments to the correct destination host using IP addresses
+- Layer 2 provides a service to Layer 3 by delivering packets to the next hop using MAC addresses
+
+### Same-Layer Interaction
+
+The **same layer** on **different hosts** communicates logically. This concept lets you ignore the other layers and focus on a single layer's interaction.
+
+**Examples:**
+- Layer 4 port numbers on PC1 → Layer 4 port numbers on SRV1
+- Layer 3 IP addresses on PC1 → Layer 3 IP addresses on SRV1
+- Layer 2 MAC addresses on PC1 → Layer 2 MAC addresses on R1 (next hop)
+
+### Separation of Layers (Modularity)
+
+Because layers are modular and separated, we can swap protocols at one layer without affecting the others.
+
+**Example 1 (Swap upper layers):**
+- Instead of HTTP over TCP → use TFTP over UDP
+- Lower layers (IP, Ethernet) don't care
+
+**Example 2 (Swap lower layers):**
+- Instead of wired Ethernet → use wireless Wi-Fi
+- Upper layers (TCP, HTTP) don't care
+
+This flexibility is one of the main benefits of a layered model.
+
+---
+
+## The OSI Model (7 Layers)
+
+You'll often hear about the **OSI model** in networking studies. Here's how it compares.
+
+### OSI 7 Layers:
+
+| Layer | Name | Function |
+|-------|------|----------|
+| 7 | Application | Network applications (HTTP, FTP, DNS) |
+| 6 | Presentation | Data translation, encryption, compression |
+| 5 | Session | Manages sessions/dialogues between apps |
+| 4 | Transport | End-to-end communication, port numbers |
+| 3 | Network | Routing, IP addressing |
+| 2 | Data Link | Hop-to-hop delivery, MAC addresses |
+| 1 | Physical | Bits, signals, cables |
+
+### OSI vs. TCP/IP: A Quick History
+
+- **Late 1970s-1980s:** ISO designed the 7-layer OSI model and protocol suite
+- **Goal:** Create international, vendor-neutral standards to replace proprietary stacks
+- **Outcome:** OSI protocols were developed too late and were too complex
+- **Winner:** TCP/IP (more bottom-up, practical approach)
+
+### Today's Reality:
+
+- Almost all networks use the **TCP/IP protocol stack**
+- The **7-layer OSI model** survives as a reference and teaching model
+- Most resources use a **5-layer model** with OSI layer names:
+  - Layer 3 = Network layer (not Internet layer)
+  - Layer 2 = Data Link layer (not Local Network layer)
+  - Layer 5/7 = Application layer
+
+> **Practical note:** In real-world networking, people usually just refer to "Layer 2", "Layer 3", etc. You won't be quizzed on specific layer names on the CCNA exam.
+
+---
+
+## Analogy: Sending a Letter
+
+To help visualize these concepts, consider sending a letter through the postal system:
+
+| Mail System Role | TCP/IP Layer | What Stays the Same |
+|------------------|--------------|---------------------|
+| Letter content (what you say) | Application | Entire journey |
+| "To: Bob" (recipient) | Transport | Entire journey |
+| House address | Internet/Network | Entire journey |
+| Local delivery (car/truck to next stop) | Local Network/Data Link | Changes at each hop |
+| Roads and infrastructure | Physical | Changes based on route |
+
+Just like you don't think about postal trucks when writing a letter, a web browser doesn't think about Ethernet cables when requesting a webpage. Each layer focuses on its own job.
+
+---
+
+## Key Takeaways for CCNA Students
+
+1. **Know the 5 layers** and their general purposes
+
+2. **Understand encapsulation and decapsulation** — data gets headers/trailers as it goes down the stack, and they get removed as it goes up
+
+3. **Remember the PDU names:**
+   - Segment/Datagram (Layer 4)
+   - Packet (Layer 3)
+   - Frame (Layer 2)
+
+4. **Understand the two types of interaction:**
+   - Adjacent-layer (different layers on same host)
+   - Same-layer (same layer on different hosts)
+
+5. **Know where devices operate:**
+   - Routers = Layer 3
+   - Switches = Layer 2
+   - Hubs = Layer 1
+
+6. **Remember:** The model is a tool, not a law. Real protocols don't always fit perfectly into a single layer, and that's okay.
+
+---
+
+## What's Next?
+
+This TCP/IP model is a framework you'll use throughout your entire networking career. As you learn about:
+- IP addressing and subnetting → Layer 3
+- Ethernet and switching → Layer 2
+- TCP and UDP → Layer 4
+- HTTP, DNS, and other applications → Layer 5
+
+You'll be able to place each new concept into the right layer and see how it fits into the bigger picture.
+
+---
+
+*This guide is part of a CCNA study series. Stay tuned for more in-depth topics on IP addressing, routing, switching, and network automation.*
