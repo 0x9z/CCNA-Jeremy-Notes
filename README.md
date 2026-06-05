@@ -12,7 +12,7 @@ My personal notes for Jeremy's IT Lab CCNA course.
 --
 
 
-## 🙏 Credits & Acknowledgments
+## 🙏 Credits & Acknowledgments :
 
 This repository is my personal study notes based on the excellent **Jeremy's IT Lab** CCNA course on YouTube.
 
@@ -26,7 +26,7 @@ These notes are my own interpretation and practice, not official course material
 > ⚠️ **Note:** This repository is for personal learning and sharing. It is not endorsed by or affiliated with Jeremy. If you enjoy the content, please support Jeremy by watching his free YouTube videos and checking his website.
 
 --
-## How I Study
+## How I Study 
 1. Watch Jeremy's video
 2. Write my own notes (this repo)
 3. Review with Anki
