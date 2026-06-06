@@ -1,6 +1,6 @@
 # CCNA-Jeremy-Notes
 
-My personal notes for Jeremy's IT Lab CCNA course.
+Hi, This is My personal notes for Jeremy's IT Lab CCNA course.
 
 
   ## Day-by-Day Course Progress :
