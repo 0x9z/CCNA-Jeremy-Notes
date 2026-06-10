@@ -80,5 +80,5 @@ Do not rush to finish the material; focus on understanding the *why* rather than
 If a specific topic—like BGP or advanced OSPF—seems impossible, move on and return to it later.
 Networking is a building-block discipline; once you grasp the basics, the advanced topics eventually fall into place.
 
--
+
 
