@@ -32,6 +32,9 @@ These notes are my own interpretation and practice, not official course material
 3. Review with Anki
 4. Practice with Packet Tracer
 
+## Things may help you :
+- [CCNA Simple Roadmap](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Roadmap.md)
+
 ## Resources
 - [Jeremy's IT Lab](https://youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ&si=Eukex276Nfl6Jo_Z)
 - [Wendell Odom Anki Flash Cards - Cisco CCNA 200-301](https://ankiweb.net/shared/info/591991787)
