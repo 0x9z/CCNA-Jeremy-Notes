@@ -12,7 +12,7 @@ The most critical skill for any network beginner is understanding how data moves
 - **Layer 4 (Transport):** TCP/UDP, ports, and segments.
 - **Layers 5-7 (Session/Presentation/Application):** The data itself, protocols like HTTP or SSH.
 
-## 2. Master IP Addressing and Subnetting
+## 2. Master IP Addressing and Subnetting :
 
 Subnetting is the "math" of networking. Many beginners struggle here, but it is purely logical. You must be able to perform subnetting in your head for the exam. Focus on understanding the relationship between the subnet mask and the IP address.
 
