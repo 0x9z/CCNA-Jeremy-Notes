@@ -36,7 +36,7 @@ exit
 copy running-config startup-config # Save changes
 ```
 
-## 4. Key Concepts to Prioritize
+## 4. Key Concepts to Prioritize :
 
 The CCNA curriculum is broad, but certain topics appear in almost every exam iteration. Focus your energy on these pillars:
 
