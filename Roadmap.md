@@ -20,7 +20,7 @@ Subnetting is the "math" of networking. Many beginners struggle here, but it is 
 - **CIDR notation:** Understand what /24, /25, and /30 actually mean in terms of host counts.
 - **Practice:** Use online subnetting calculators to verify your manual work until it becomes muscle memory.
 
-## 3. Hands-on Labbing: The Cisco Way
+## 3. Hands-on Labbing: The Cisco Way :
 
 You cannot pass the CCNA by reading alone. You need to touch the Command Line Interface (CLI). Use Cisco Packet Tracer for basics, or GNS3/EVE-NG for more advanced simulations. Start by mastering basic router and switch configuration.
 
