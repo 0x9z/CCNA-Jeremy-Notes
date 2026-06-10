@@ -2,7 +2,7 @@
 
 Embarking on the Cisco Certified Network Associate (CCNA) journey is the foundational step for any career in information technology. It provides a comprehensive understanding of networking fundamentals, IP connectivity, security, and automation. Because the networking field is vast, this guide focuses on streamlining your study approach, identifying core concepts, and building the practical mindset required to pass the exam and succeed in a real-world environment.
 
-## 1. Understanding the OSI and TCP/IP Models
+## 1. Understanding the OSI and TCP/IP Models :
 
 The most critical skill for any network beginner is understanding how data moves from point A to point B. You must memorize the Open Systems Interconnection (OSI) model, but more importantly, understand how each layer interacts with the one above and below it.
 
