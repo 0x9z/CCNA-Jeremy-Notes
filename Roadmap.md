@@ -47,7 +47,7 @@ The CCNA curriculum is broad, but certain topics appear in almost every exam ite
 - **NAT (Network Address Translation):** How private internal networks access the public internet.
 - **Wireless Fundamentals:** The basics of SSIDs, WLCs, and encryption types.
 
-## 5. Recommended Study Routine
+## 5. Recommended Study Routine :
 
 Consistency beats intensity. Studying for two hours every day is vastly superior to a single ten-hour "marathon" session once a week.
 
