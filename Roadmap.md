@@ -1,4 +1,4 @@
-# Mastering the CCNA: A Beginner’s Roadmap
+# Mastering the CCNA: A Beginner’s Roadmap :
 
 Embarking on the Cisco Certified Network Associate (CCNA) journey is the foundational step for any career in information technology. It provides a comprehensive understanding of networking fundamentals, IP connectivity, security, and automation. Because the networking field is vast, this guide focuses on streamlining your study approach, identifying core concepts, and building the practical mindset required to pass the exam and succeed in a real-world environment.
 
