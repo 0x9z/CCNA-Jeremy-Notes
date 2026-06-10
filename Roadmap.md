@@ -57,7 +57,7 @@ Consistency beats intensity. Studying for two hours every day is vastly superior
 - **Lab Weekly:** Dedicate at least two days a week exclusively to building topologies in Packet Tracer.
 - **Practice Exams:** Two weeks before your exam date, start taking practice tests to identify knowledge gaps and get used to the timing.
 
-## 6. Top 10 Concepts for Interview Preparation
+## 6. Top 10 Concepts for Interview Preparation :
 
 If you are aiming for your first junior network role, be prepared to discuss these concepts clearly:
 
