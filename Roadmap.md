@@ -72,7 +72,7 @@ If you are aiming for your first junior network role, be prepared to discuss the
 9. **Administrative Distance:** How routers choose the best path when multiple protocols offer a route.
 10. **Automation Basics:** Understanding that manual CLI work is shifting toward API-driven configuration (REST APIs, Python).
 
-## 7. Staying Motivated
+## 7. Staying Motivated :
 
 The CCNA is a challenge because it covers a significant breadth of information.
 When you feel overwhelmed, remember that you are learning the "language" of the internet.
