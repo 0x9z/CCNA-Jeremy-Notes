@@ -3,7 +3,7 @@
 Hi, This is My personal notes for Jeremy's IT Lab free CCNA course on YouTube.
 
 
-  ## Day-by-Day Course Progress :
+  ## Day-by-Day Course Progress 
 
 - Day 01: [Network Devices](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Day01_Networking_Devices.md)
 - Day 02: [Interfaces and Cables](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Day02_Interfaces_and_Cables.md)
