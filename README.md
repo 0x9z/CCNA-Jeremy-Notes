@@ -17,7 +17,7 @@ Hi, This is My personal notes for Jeremy's IT Lab free CCNA course on YouTube.
 This repository is my personal study notes based on the excellent **Jeremy's IT Lab** CCNA course on YouTube.
 
 - **Course:** [Jeremy's IT Lab - Complete CCNA Course](https://youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ&si=Eukex276Nfl6Jo_Z)
-- **Instructor:** Jeremy (YouTube: @JeremysITLab)
+- **Instructor:** Jeremy (YouTube: @[JeremysITLab](https://youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ&si=Eukex276Nfl6Jo_Z))
 - **Official Website:** [jeremysitlab.com](https://www.jeremysitlab.com/)
 
 All credit for the original educational content goes to Jeremy.  
