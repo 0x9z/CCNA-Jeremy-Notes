@@ -1,4 +1,4 @@
-# CCNA-Jeremy-Notes
+# CCNA-Jeremy-Notes :
 
 Hi, This is My personal notes for Jeremy's IT Lab free CCNA course on YouTube.
 
