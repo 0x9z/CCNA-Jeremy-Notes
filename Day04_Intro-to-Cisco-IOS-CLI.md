@@ -6,7 +6,7 @@ A **Command-Line Interface (CLI)** is the primary method to configure and manage
 
 ## 🔌 Connecting to a Cisco Device
 
-For initial configuration, use the **Console Port**.
+For initial configuration, use the **Console Port**
 
 ### 🛠️ Requirements
 
