@@ -9,6 +9,9 @@ Hi, This is My personal notes for Jeremy's IT Lab free CCNA course on YouTube.
 - Day 02: [Interfaces and Cables](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Day02_Interfaces_and_Cables.md)
 - Day 03: [The OSI MODEL & TCP/IP](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Day03_TCP-IP_%26_OSI_Model.md)
 - Day 04: [Introduction to the Cisco CLI](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Day04_Intro-to-Cisco-IOS-CLI.md)
+- Day 05: []()
+- Day 06: []()
+
 
 
 --
