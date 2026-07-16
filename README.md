@@ -12,6 +12,9 @@ Hi, This is My personal notes for Jeremy's IT Lab free CCNA course on YouTube.
 - Day 05: [Ethernet LAN Switching Part1](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Day05_Ethernet_LAN_Switching_Part1.md)
 - Day 06: [Ethernet LAN Switching Part2](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Day06_Ethernet_LAN_Switching_Part2.md)
 - Day 07: [IPv4 Addressing Part1](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Day07_IPv4_Addressing_Part1.md)
+- Day 08: [IPv4 Addressing Part2](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Day08_IPv4_Addressing_Part2.md)
+- Day 09: [Switch Interfaces](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Day09_Switch_Interfaces.md)
+- Day 10: [The IPv4 Header](https://github.com/0x9z/CCNA-Jeremy-Notes/blob/main/Day10_The_IPv4_Header.md)
 
 
 --
